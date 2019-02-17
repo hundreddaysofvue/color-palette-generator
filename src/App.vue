@@ -10,11 +10,7 @@
 import Wheel from './components/Wheel.vue'
 
 export default {
-  data () {
-    return {
-
-    }
-  },
+  name: 'App',
   components: {
     Wheel
   }

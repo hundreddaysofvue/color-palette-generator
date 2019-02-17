@@ -1,17 +1,26 @@
 <template>
   <div>
     <section class="wheel">
-      <div class="color"
-           v-for="(color, index) in colors"
-           :style="{backgroundColor: `#${color}`}"
-           @click="hue = index">
+      <div
+        class="color"
+        v-for="(color, index) in colors"
+        :style="{backgroundColor: `#${color}`}"
+        @click="hue = index"
+      >
       </div>
     </section>
     <section class="selected">
-      <article class="palette" v-for="color in palette">
-        <span class="palette-color" :style="{backgroundColor:
-        `#${color}`}"></span><br>
-        <span class="palette-legend">{{ '#' + color }}</span>
+      <article
+        class="palette"
+        v-for="color in palette"
+      >
+        <span
+          class="palette-color"
+          :style="{backgroundColor: `#${color}`}"
+        >
+        </span>
+        <br>
+        <span class="palette-legend">{{ `#${color}` }}</span>
       </article>
     </section>
   </div>
