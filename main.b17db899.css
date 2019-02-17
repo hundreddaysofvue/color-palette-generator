@@ -1,0 +1,15 @@
+body{font-family:monospace;font-size:1.2rem;background-color:#000;color:#fff}
+span[data-v-9eb59e]{display:block
+}
+.wheel[data-v-9eb59e]{white-space:nowrap;position:relative;top:20%;font-size:0
+}
+.color[data-v-9eb59e]{width:2px;height:200px;cursor:pointer
+}
+.color[data-v-9eb59e],.palette[data-v-9eb59e]{display:inline-block
+}
+.palette[data-v-9eb59e]{text-align:center;margin:1rem
+}
+.palette-color[data-v-9eb59e]{width:3rem;height:3rem;margin-left:12px;border:2px solid #fff;border-radius:50%
+}
+.container[data-v-f22df2]{text-align:center
+}
