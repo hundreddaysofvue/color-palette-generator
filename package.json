@@ -1,15 +1,15 @@
 {
-  "name": "colorwheel",
+  "name": "color-palette-generator",
   "version": "1.0.0",
   "description": "Select colors from the wheel and perform other operations",
   "main": "index.js",
-  "repository": "https://github.com/thousanddaysofvue/project36",
+  "repository": "https://github.com/hundreddaysofvue/project36",
   "author": "Jhony Grillet <grilletjhony@gmail.com>",
   "license": "MIT",
   "private": false,
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --public-url /color-palette-generator"
   },
   "dependencies": {
     "assets": "^3.0.0",
